@@ -35,7 +35,7 @@
     <elasticsearch.version>2.3.5</elasticsearch.version>
     <elasticsearch.plugin.isolated>false</elasticsearch.plugin.isolated>
     <dependency.locations.enabled>false</dependency.locations.enabled>
-    <elasticsearch.plugin.classname>com.jbo.searchguard.AuthPlugin</elasticsearch.plugin.classname>
+    <elasticsearch.plugin.classname>com.jbo.elasticsearch.auth.AuthPlugin</elasticsearch.plugin.classname>
     <!--<tests.ifNoTests>warn</tests.ifNoTests>-->
     <elasticsearch.assembly.descriptor>${basedir}/src/main/assemblies/plugin.xml</elasticsearch.assembly.descriptor>
     <skip.integ.tests>true</skip.integ.tests>
